@@ -2,7 +2,7 @@ const express = require("express");
 const { MongoClient } = require("mongodb");
 const db = require("./config/connection");
 const User = require("./models/User");
-const Thought = require("./models/Thoughts");
+const Thought = require("./models/Thought");
 const Friend = require("./models/Friend")
 
 const app = express();
